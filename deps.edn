@@ -1,0 +1,7 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        amazonica/amazonica {:mvn/version "0.3.163"}
+        com.phronemophobic/llama-clj-combined {:mvn/version "0.8"}}
+ :aliases
+ {:project
+  {:jvm-opts ["-DAWS_PROFILE=cloudjam"]}}}
